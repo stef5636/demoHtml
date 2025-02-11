@@ -1,21 +1,65 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="it">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My First Web Page</title>
+    <title>TeTo</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    
 </head>
 <body>
+
     <header>
-        <h1>Welcome to My First Website</h1>
-        <p>This is a simple page hosted on GitHub Pages!</p>
+      
+        <nav>
+            <button id="menu-toggle"> ☰ </button>
+            <ul id="menu" class="hidden">
+                <li><a href="">ctf writeup</a></li>
+                <li><a href="">ctf resources</a></li>
+            </ul>
+        
+        </nav>
     </header>
+
     <main>
-        <h2>About Me</h2>
-        <p>Hi, I'm Stefano and this is my first website using GitHub Pages!</p>
+        <section>
+            <h1>T&T%</h1>
+            
+            
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="250" height="250">
+                
+                <circle cx="100" cy="100" r="80" fill="none" stroke="#4C2C1D" stroke-width="40" stroke-dasharray="5, 4"/>
+                <circle cx="100" cy="100" r="40" fill="none" stroke="#4C2C1D" stroke-width="20" stroke-dasharray="2, 4"/>
+                <circle cx="100" cy="100" r="20" fill="none" stroke="#4C2C1D" stroke-width="100" stroke-dasharray="2, 4"/>
+                <circle cx="50" cy="100" r="10" fill="none" stroke="#1C2C1A" stroke-width="10" stroke-dasharray="2, 4"/>
+                <circle cx="150" cy="100" r="10" fill="none" stroke="#1C2C1A" stroke-width="10" stroke-dasharray="2, 4"/>
+
+                <circle cx="75" cy="85" r="4" fill="#4C2C1R" />
+                <circle cx="125" cy="85" r="4" fill="#4C2C1R" />
+                
+                <text x="50%" y="170" text-anchor="middle" font-family="Arial, sans-serif" font-size="60" fill="#1C2C1R"></text>
+              </svg>
+              <h2>HI!</h2>
+              <p>BSc CyberSec graduate - ctf player</p>
+              
+        </section>
+
+
+        <section>
+            <h2 id="dynamic-section">My Stuff</h2>
+
+            <img id="demo" src="assets/images/binary-5389555_1920.png" style="width:200px;height:200px" >
+            <div><button class="button button1" id="change-btn">Magic</button> </div>
+            <div><button class="button button1" id="prova">ExtraMagic</button> </div>
+            <div><button class="button button1" id="OK">SuperExtraMagic</button> </div>
+
+        </section>
+        
     </main>
+
     <footer>
-        <p>Contact me at stefano@example.com</p>
+        <p>&copy; 2025 T&T%</p>
     </footer>
+    <script src="assets/js/script.js"></script>
 </body>
 </html>
